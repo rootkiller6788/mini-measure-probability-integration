@@ -1,0 +1,18 @@
+# Lake build output
+.lake/
+build/
+
+# Lean
+*.olean
+*.ilean
+*.trace
+*.ltrace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~

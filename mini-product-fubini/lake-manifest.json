@@ -1,0 +1,35 @@
+{
+  "version": "5.0.0",
+  "packagesDir": "..\\..\\.lake\\packages",
+  "packages": [
+    {
+      "name": "mini-product-fubini",
+      "path": ".",
+      "scope": ""
+    },
+    {
+      "dir": "..\\mini-measure-theory",
+      "name": "mini-measure-theory",
+      "configFile": "lakefile.lean",
+      "manifestFile": "lake-manifest.json"
+    },
+    {
+      "dir": "..\\mini-measurable-functions",
+      "name": "mini-measurable-functions",
+      "configFile": "lakefile.lean",
+      "manifestFile": "lake-manifest.json"
+    },
+    {
+      "dir": "..\\mini-lebesgue-integration",
+      "name": "mini-lebesgue-integration",
+      "configFile": "lakefile.lean",
+      "manifestFile": "lake-manifest.json"
+    },
+    {
+      "dir": "..\\..\\..\\0. mini-math-kernel\\mini-object-kernel",
+      "name": "mini-object-kernel",
+      "configFile": "lakefile.lean",
+      "manifestFile": "lake-manifest.json"
+    }
+  ]
+}
